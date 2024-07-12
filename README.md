@@ -1,7 +1,7 @@
 1.	Tecnologias Utilizadas
 2.	Linguagem: PHP
 3.	Framework: Laravel
-4.	Banco de Dados: MySQL
+4.	Banco de Dados: POSTGREE
 5.	Frontend: Postman
 6.	Outras Tecnologias: Git
 

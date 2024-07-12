@@ -1,9 +1,10 @@
--Tecnologias Utilizadas
--Linguagem: PHP
--Framework: Laravel
--Banco de Dados: Postgree
--Frontend: Postman
--Outras Tecnologias: Git
+1.	Tecnologias Utilizadas
+2.	Linguagem: PHP
+3.	Framework: Laravel
+4.	Banco de Dados: MySQL
+5.	Frontend: Postman
+6.	Outras Tecnologias: Git
+
 
 1.	Baixar o projeto git clone https://github.com/thyago666/testeHora.git
 2.	Abrir o projeto com o visual Studio code ou alguma IDE de sua preferencia

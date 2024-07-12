@@ -1,3 +1,10 @@
+-Tecnologias Utilizadas
+-Linguagem: PHP
+-Framework: Laravel
+-Banco de Dados: Postgree
+-Frontend: Postman
+-Outras Tecnologias: Git
+
 1.	Baixar o projeto git clone https://github.com/thyago666/testeHora.git
 2.	Abrir o projeto com o visual Studio code ou alguma IDE de sua preferencia
 3.	Configurar o .env com as credenciais do seu banco

@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "5c37e205-4f28-4278-a8ee-149b3c167798",
+		"name": "testeHorario",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14786408"
+	},
+	"item": [
+		{
+			"name": "getHorario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/estrategiaWMS/2/09/30/40"
+			},
+			"response": []
+		},
+		{
+			"name": "postHorario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"dsEstrategia\": \"RETIRA\",\r\n\"nrPrioridade\": 10,\r\n\"horarios\":[\r\n{\r\n\"dsHorarioInicio\": \"09:00\",\r\n\"dsHorarioFinal\": \"10:00\",\r\n\"nrPrioridade\": 40\r\n},\r\n{\r\n\"dsHorarioInicio\": \"10:01\",\r\n\"dsHorarioFinal\": \"11:00\",\r\n\"nrPrioridade\": 30\r\n},\r\n{\r\n\"dsHorarioInicio\": \"11:01\",\r\n\"dsHorarioFinal\": \"12:00\",\r\n\"nrPrioridade\": 20\r\n}\r\n]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/post"
+			},
+			"response": []
+		}
+	]
+}

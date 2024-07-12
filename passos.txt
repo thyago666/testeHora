@@ -1,0 +1,9 @@
+php artisan migrate
+php artisan migrate --seed
+
+php artisan db:seed
+
+select est.ds_estrategia_wms, est.nr_prioridade, hor.ds_horario_inicio, hor.ds_horario_final,hor.nr_prioridade
+	from tb_estrategia_wms as est, tb_estrategia_wms_horario_prioridade as hor
+ WHERE STR_TO_DATE('10:00', '%H:%i') BETWEEN STR_TO_DATE(ds_horario_inicio, '%H:%i')
+	AND STR_TO_DATE(ds_horario_final, '%H:%i')
